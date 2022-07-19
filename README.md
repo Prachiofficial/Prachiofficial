@@ -39,9 +39,9 @@ A new word cloud will be automatically generated when you [add your own word](ht
 
 <img src="https://raw.githubusercontent.com/Prachiofficial/Prachiofficial/master/wordcloud/wordcloud.png" alt="WordCloud" width="100%">
 
-![Word Cloud Words Badge](https://img.shields.io/badge/Words%20in%20this%20Cloud-6-informational?labelColor=7D898B)
+![Word Cloud Words Badge](https://img.shields.io/badge/Words%20in%20this%20Cloud-7-informational?labelColor=7D898B)
 ![Word Cloud Contributors Badge](https://img.shields.io/badge/Contributors%20this%20Cloud-2-blueviolet?labelColor=7D898B)
 
-[![Github Badge](https://img.shields.io/badge/-@HarshitKumar9030-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/HarshitKumar9030)](https://github.com/HarshitKumar9030) [![Github Badge](https://img.shields.io/badge/-@Prachiofficial-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Prachiofficial)](https://github.com/Prachiofficial) 
+[![Github Badge](https://img.shields.io/badge/-@Prachiofficial-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Prachiofficial)](https://github.com/Prachiofficial) [![Github Badge](https://img.shields.io/badge/-@HarshitKumar9030-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/HarshitKumar9030)](https://github.com/HarshitKumar9030) 
 
  Check out the [previous word cloud](https://github.com/Prachiofficial/Prachiofficial/blob/master/previous_clouds/previous_clouds.md#what-are-you-looking-forward-to-in-2021-tada-sunglasses-confetti_ball) to see our community's **What are you looking forward to in 2021? :tada: :sunglasses: :confetti_ball:**
