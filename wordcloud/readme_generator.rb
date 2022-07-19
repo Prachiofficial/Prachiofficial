@@ -1,11 +1,11 @@
 require_relative "./cloud_types"
 
 class ReadmeGenerator
-  WORD_CLOUD_URL = 'https://raw.githubusercontent.com/JessicaLim8/JessicaLim8/master/wordcloud/wordcloud.png'
+  WORD_CLOUD_URL = 'https://raw.githubusercontent.com/Prachiofficial/Prachiofficial/master/wordcloud/wordcloud.png'
   ADDWORD = 'add'
   SHUFFLECLOUD = 'shuffle'
   INITIAL_COUNT = 3
-  USER = "JessicaLim8"
+  USER = "Prachiofficial"
 
   def initialize(octokit:)
     @octokit = octokit
@@ -30,29 +30,41 @@ class ReadmeGenerator
     end
 
     markdown = <<~HTML
-# Hi I'm Jessica 👋
+    <img src="https://github.com/HarshitKumar9030/HarshitKumar9030/blob/main/github.png">
 
-[![Linkedin Badge](https://img.shields.io/badge/-jlim-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jlim/)](https://www.linkedin.com/in/jlim/)
-[![Medium Badge](https://img.shields.io/badge/-@jessicalim-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@jessicalim)](https://medium.com/@jessicalim)
-[![Website Badge](https://img.shields.io/badge/-jessicalim.me-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://jessicalim.me)](https://jessicalim.me)
-[![Twitter Badge](https://img.shields.io/badge/-@__jesslim-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_jesslim)](https://twitter.com/_jesslim)
-[![Instagram Badge](https://img.shields.io/badge/-@__jessicaalim-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/_jessicaalim/)](https://instagram.com/_jessicaalim)
-[![Gmail Badge](https://img.shields.io/badge/-jessicalim813-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:jessicalim813@gmail.com)](mailto:jessicalim813@gmail.com)
+    # Hi there I am [Prachi 🖐️][website]
+    <br />
+    
+    ## I am a developer and a student.
+    
+    - 👋 Hi, I’m Prachi Arya
+    - 👀 I’m interested in Playing Guitar, Linux and Javascript ...
+    - 🌱 I’m currently learning React .
+    - 📫 Mail me at Prachi@prachiarya.me
+    
+    <br />
 
-Welcome to my profile! I'm a student, aspiring [writer](https://medium.com/@_jessicalim), part-time coder and full-time adventure seeker. I am current interning @Wealthsimple, and have previously PM'd @Autodesk, SWE'd @Microsoft, and UX&D consulted @Deloitte. Thanks for visiting and I'd love to [connect](https://www.linkedin.com/in/jlim/)!
+    ## Github Info / Stats
+  <div>
+    <a align="left" href="#"><img alt="Prachi's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Prachiofficial&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117&title_color=5ce1e6&icon_color=5ce1e6" height="200"/></a>
+    <a align="right" href="#"><img alt="Prachiofficial's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prachiofficial&langs_count=10&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=5ce1e6&icon_color=5ce1e6" height="200"/></a>
+   <p align="center"> <img src="https://komarev.com/ghpvc/?username=Prachiofficial-1nc0re&label=Profile%20views&color=0e75b6&style=flat" alt="Prachiofficial" /> </p>
+    <br/>
+    <i><b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</i>
+  </div>
 
+<br/>
+<img src="https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png">
 
-## Join the Community Word Cloud :cloud: :pencil2:
+[website]: https://www.prachiarya.me
 
-![](https://img.shields.io/badge/Words%20Added-#{total_words_added}-brightgreen?labelColor=7D898B)
-![](https://img.shields.io/badge/Word%20Clouds%20Created-#{total_clouds}-48D6FF?labelColor=7D898B)
-![](https://img.shields.io/badge/Total%20Participants-#{participants.size}-AC6EFF?labelColor=7D898B)
+<br />
+    
+### :thought_balloon: [Add a word](https://github.com/Prachiofficial/Prachiofficial/issues/new?template=addword.md&title=wordcloud%7C#{ADDWORD}%7C%3CINSERT-WORD%3E) to see the word cloud update in real time :rocket:
 
-### :thought_balloon: [Add a word](https://github.com/JessicaLim8/JessicaLim8/issues/new?template=addword.md&title=wordcloud%7C#{ADDWORD}%7C%3CINSERT-WORD%3E) to see the word cloud update in real time :rocket:
+A new word cloud will be automatically generated when you [add your own word](https://github.com/Prachiofficial/Prachiofficial/issues/new?template=addword.md&title=wordcloud%7C#{ADDWORD}%7C%3CINSERT-WORD%3E). The prompt will change frequently, so be sure to come back and check it out :relaxed:
 
-A new word cloud will be automatically generated when you [add your own word](https://github.com/JessicaLim8/JessicaLim8/issues/new?template=addword.md&title=wordcloud%7C#{ADDWORD}%7C%3CINSERT-WORD%3E). The prompt will change frequently, so be sure to come back and check it out :relaxed:
-
-:star2: Don't like the arrangement of the current word cloud? [Regenerate it](https://github.com/JessicaLim8/JessicaLim8/issues/new?template=shufflecloud.md&title=wordcloud%7C#{SHUFFLECLOUD}) :game_die:
+:star2: Don't like the arrangement of the current word cloud? [Regenerate it](https://github.com/Prachiofficial/Prachiofficial/issues/new?template=shufflecloud.md&title=wordcloud%7C#{SHUFFLECLOUD}) :game_die:
 
 <div align="center">
 
@@ -72,10 +84,6 @@ A new word cloud will be automatically generated when you [add your own word](ht
     end
 
     markdown.concat("\n\n Check out the [previous word cloud](#{previous_cloud_url}) to see our community's **#{CloudTypes::CLOUDPROMPTS[-2]}**")
-
-    markdown.concat("</div>")
-
-    markdown.concat("\n\n ### Need inspiration for your own README? Check out [How to Stand out on GitHub using Profile READMEs](https://medium.com/better-programming/how-to-stand-out-on-github-with-profile-readmes-dfd2102a3490?source=friends_link&sk=61df9c4b63b329ad95528b8d7c00061f)")
   end
 
   private
@@ -86,7 +94,7 @@ A new word cloud will be automatically generated when you [add your own word](ht
 
   def previous_cloud_url
     url_end = CloudTypes::CLOUDPROMPTS[-2].gsub(' ', '-').gsub(':', '').gsub('?', '').downcase
-    "https://github.com/JessicaLim8/JessicaLim8/blob/master/previous_clouds/previous_clouds.md##{url_end}"
+    "https://github.com/Prachiofficial/Prachiofficial/blob/master/previous_clouds/previous_clouds.md##{url_end}"
   end
 
   attr_reader :octokit
