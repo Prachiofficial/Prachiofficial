@@ -3,6 +3,7 @@
 # Hi there I am [Prachi 🖐️][website]
 <br />
 ### I am a developer and a student.
+
 - 👋 Hi, I’m Prachi Arya
 - 👀 I’m interested in Playing Guitar, Linux and Javascript ...
 - 🌱 I’m currently learning React .
